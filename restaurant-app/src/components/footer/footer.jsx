@@ -1,12 +1,14 @@
-import React from 'react';
+import React from "react";
 
 const Footer = () => {
   return (
-    <div>
-      <h1>Footer</h1>
-      {/* Contenido relacionado con locales */}
-    </div>
+    <footer>
+      <p>
+        Copyright © {new Date().getFullYear()} La Panera Rosa. Todos los derechos
+        reservados.
+      </p>
+    </footer>
   );
-}
+};
 
 export default Footer;
