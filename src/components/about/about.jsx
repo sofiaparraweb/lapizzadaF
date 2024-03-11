@@ -5,7 +5,7 @@ const About = () => {
     <section id="about">
       <h2>Sobre nosotros</h2>
       <p>
-        La Panera Rosa es una empresa familiar con más de 20 años de experiencia en la
+        La Pizzada es una empresa familiar con más de 20 años de experiencia en la
         elaboración de productos de panadería y pastelería artesanal. Nuestros
         productos son elaborados con ingredientes de alta calidad y sin conservantes, lo
         que nos distingue de otras empresas del sector.

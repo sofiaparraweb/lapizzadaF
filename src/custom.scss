@@ -1,0 +1,51 @@
+// custom.scss
+
+// Import Bootstrap
+$theme-colors: (
+  "primary": #cb4335,
+  "secondary": #f5b7b1,
+  "success": #b03a2e,
+  "danger": #FF5733,
+  "warning": #c0392b,
+  "info": #a93226,
+  "light": #f8f9fa,
+  "dark": #101112
+);
+
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+// Define the custom font variable
+:root {
+  --bs--body-font-family: "Red Hat Display", sans-serif;
+}
+
+// Override the $body-font-family variable
+$font-family-sans-serif: var(--bs--body-font-family);
+
+.la-pizzada-logo.png img {
+  height: 50px;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+
+  @media (max-width: 767.98px) {
+    height: 40px;
+  }
+
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
+.nav-link {
+  color: #fff;
+  transition: color 0.3s ease, transform 0.3s ease;
+
+  &:hover {
+    color: #ffc107;
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(255, 193, 7, 0.5);
+  }
+}
+
+// Import the Bootstrap Sass files
+@import "../node_modules/bootstrap/scss/bootstrap.scss";

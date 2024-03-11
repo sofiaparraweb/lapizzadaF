@@ -8,6 +8,8 @@ import Home from './components/home/home';
 import Locals from './components/locals/locals';
 import Footer from './components/footer/footer';
 import Galery from './components/galery/galery';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 function App() {
   return (
