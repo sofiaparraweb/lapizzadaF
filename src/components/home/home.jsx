@@ -4,14 +4,23 @@ import About from '../about/about';
 import Galery from '../galery/galery';
 import Locals from '../locals/locals';
 import Reviews from '../reviews/reviews';
+import Carousel from './carousel1';
+import { Image } from 'react-bootstrap';
+import foto4 from "../../assets/foto4.jpeg"
+import "./home.css"
+import InfoBox from './infoBox/infoBox';
+import InfoBox2 from './infoBox/infoBox2';
+import InfoBox3 from './infoBox/infoBox3';
+import Timeline from '../timeline/timeline';
 
 const Home = () => {
   return (
     <div className="home">
       <h1>Bienvenidos a La Pizzada</h1>
-      <div className="imageHomeContainer">
-        <img src={'https://w0.peakpx.com/wallpaper/53/560/HD-wallpaper-food-pizza.jpg'} alt="lagruta" />
-      </div>
+      <Carousel />
+      <InfoBox />
+    <Timeline />
+      {/* <Image src={foto4} className='img-fluid' fluid /> */}
       <div className="about">
         <h2 className="sectionTitle">Nosotros</h2>
         <p className="sectionSubtitle">Conoce nuestra historia y valores</p>

@@ -1,0 +1,10 @@
+.img-fluid {
+    width: 100%;
+    height: auto;
+  }
+  
+  .carousel-item img {
+    object-fit: cover;
+    width: 1200px;
+    height: 400px;
+  }
