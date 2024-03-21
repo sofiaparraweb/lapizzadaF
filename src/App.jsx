@@ -13,7 +13,7 @@ import Locals from './pages/locals/locals';
 // import Footer from './components/footer/footer';
 import Galery from './pages/galery/galery';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+import "./custom.scss";
 
 
 function App() {
@@ -23,8 +23,8 @@ function App() {
       <Navbar expand="lg" className='fixed-top bg-body-tertiary shadow'>
         <Container>
           <Navbar.Brand>
-            <Link to="/" className='navbar-brand text-success fw-semibold'>
-              React Restaurant
+            <Link to="/" className='navbar-brand text-success fw-semibold text-color'>
+           LA PIZZADA
             </Link>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls='basic-navbar-nav' />

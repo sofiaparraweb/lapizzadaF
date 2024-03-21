@@ -1,15 +1,15 @@
 import React from "react";
 import { Card, CardBody, CardText, CardFooter, CardTitle } from 'react-bootstrap';
 // import './Reviews.css';
-import Person1 from '../assets/LOGO1.png';
-import Person2 from '../assets/foto2.jpeg';
-import Person3 from '../assets/foto3.webp';
-import Person4 from '../assets/foto4.jpeg';
+import Person1 from '../assets/calzon.jpg';
+import Person2 from '../assets/HORARELOK.jpg';
+import Person3 from '../assets/PAPAS.webp';
+import Person4 from '../assets/HORNO.webp';
 
 export function Reviews() {
     return (
         <div className="reviews-section container">
-            <h2 className="text-center mb-5 text-uppercase fw-bold fs-1">Reviews</h2>
+            <h2 className="text-center mb-5 text-uppercase fw-bold fs-1">QUE DICEN NUESTROS CLIENTES</h2>
             <div className="row g-4">
                 <div className="col-lg-6">
                     <Card className="h-100 shadow">

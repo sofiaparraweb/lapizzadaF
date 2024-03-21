@@ -1,15 +1,15 @@
 import React from "react";
-import Gallery1 from '../assets/LOGO1.png';
-import Gallery2 from '../assets/foto2.jpeg';
-import Gallery3 from '../assets/foto3.webp';
-import Gallery4 from '../assets/foto4.jpeg';
-import Gallery5 from '../assets/istockphoto-938742222-612x612.jpg';
-import Gallery6 from '../assets/la-pizzada-logo.png';
+import Gallery1 from '../assets/calzon.jpg';
+import Gallery2 from '../assets/pizza.jpg';
+import Gallery3 from '../assets/NAPO.jpg';
+import Gallery4 from '../assets/PIZZASOMBRA.jpg';
+import Gallery5 from '../assets/QUESO.jpg';
+import Gallery6 from '../assets/WAFFLE.jpg';
 
 export function ImageGallery() {
     return (
         <div className="container py-5">
-            <h2 className="text-center fs-1 mb-5 text-uppercase fw-bold">Image Gallery</h2>
+            <h2 className="text-center fs-1 mb-5 text-uppercase fw-bold">TENTATE</h2>
             <div className="row">
                 <div className="col-md-4 px-2">
                     <div className="my-3">

@@ -1,11 +1,11 @@
 import React from 'react';
 import { MenuBtn } from '../../components/menuBtn';
 import './home.css';
-import AboutImg from '../../assets/foto2.jpeg';
+import AboutImg from '../../assets/QUESO.jpg';
 import { Link } from 'react-router-dom';
 import { ImageGallery } from '../../components/ImageGallery';
 import { ContactInfo } from '../../components/ContactInfo';
-import ContactImage from '../../assets/foto2.jpeg'
+import ContactImage from '../../assets/PAPAS.webp'
 
 function Home() {
     return (
@@ -14,8 +14,8 @@ function Home() {
                 <div className='container'>
                     <div className='row'>
                         <div className='col-sm-6 d-flex d-sm-block flex-column align-items-center'>
-                            <h2 className='mb-0 text-black fw-bold'>Welcome To</h2>
-                            <h1 className='mb-5 text-black fw-bold text-center text-sm-start'>React Restaurant</h1>
+                        <h2 className='mb-0 text-black fw-bold text-color'></h2>
+                            <h1 className='mb-5 text-black fw-bold text-center text-sm-start'>LA PIZZADA</h1>
                             <MenuBtn />
                         </div>
                     </div>

@@ -1,5 +1,9 @@
 .home-page header {
-  background-image: url(../../assets/istockphoto-938742222-612x612.jpg);
+  background-image: url(../../assets/pizza.jpg);
+}
+
+.text-color {
+  color: #cb4335;
 }
 
 header {
@@ -17,7 +21,7 @@ header h1 {
 }
 
 .menu-section {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../../assets//foto4.jpeg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../../assets/HORNO.webp);
   background-size: cover;
   background-position: center;
 }

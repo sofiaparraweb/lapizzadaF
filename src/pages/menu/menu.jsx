@@ -1,10 +1,10 @@
 import React from 'react';
 import './menu.css';
 import { Card, CardBody, CardText, CardTitle } from 'react-bootstrap';
-import BreakfastImg from '../../assets/foto2.jpeg';
-import LunchImg from '../../assets/foto3.webp';
-import DinnerImg from '../../assets/foto4.jpeg';
-import DessertImg from '../../assets/logo.png';
+import BreakfastImg from '../../assets/CAFE.jpg';
+import LunchImg from '../../assets/EMPA.jpg';
+import DinnerImg from '../../assets/NAPO.jpg';
+import DessertImg from '../../assets/WAFFLE.jpg';
 
 const breakfast = [
     {

@@ -1,7 +1,7 @@
 import React from 'react';
 import './about.css';
-import AboutChef1 from '../../assets/LOGO1.png';
-import AboutChef2 from '../../assets/foto2.jpeg';
+import AboutChef1 from '../../assets/porcion.jpg';
+import AboutChef2 from '../../assets/calzon.jpg';
 import { ImageGallery } from '../../components/ImageGallery';
 import { Reviews } from '../../components/Reviews';
 
@@ -10,7 +10,7 @@ function About() {
         <div className='about-page'>
             <header className='mt-5'>
                 <div className='container h-100 d-flex align-items-center justify-content-center'>
-                    <h1 className='text-light'>About</h1>
+                    <h1 className='text-light'>SOBRE NOSOTROS</h1>
                 </div>
             </header>
 

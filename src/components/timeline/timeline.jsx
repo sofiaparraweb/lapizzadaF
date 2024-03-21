@@ -1,10 +1,10 @@
 import React, { useEffect, useRef } from 'react';
 import './timeline.css';
 import $ from 'jquery';
-import foto2013 from '../../assets/foto2.jpeg';
-import foto2018 from '../../assets/foto3.webp';
-import foto2022 from '../../assets/foto4.jpeg';
-import foto2023 from '../../assets/istockphoto-938742222-612x612.jpg';
+import foto2013 from '../../assets/NAPO.jpg';
+import foto2018 from '../../assets/PIZZASOMBRA.jpg';
+import foto2022 from '../../assets/PAPAS.webp';
+import foto2023 from '../../assets/QUESO.jpg';
 
 const Timeline = () => {
   const timelineRef = useRef(null);

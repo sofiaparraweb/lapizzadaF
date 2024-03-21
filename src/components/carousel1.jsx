@@ -1,9 +1,9 @@
 import React from 'react';
 import "./home.css"
 import { Carousel as CarouselBootstrap } from 'react-bootstrap';
-import foto1 from "../../assets/istockphoto-938742222-612x612.jpg"
-import foto2 from "../../assets/foto2.jpeg"
-import foto3 from "../../assets/foto3.webp"
+import foto1 from "../../src/assets/EMPA.jpg"
+import foto2 from "../../src/assets/CALZON1.jpg"
+import foto3 from "../../src/assets/HORNO.webp"
 
 const Carousel = () => {
   return (
